@@ -10,10 +10,10 @@
 # Input: 5 -> 5 1 6 5 9
 # Output: 1 9
 
-total = int(input())
+total = int(input("Введите количество арбузов: "))
 max = min = int(input('вес первого: '))
 
-for _ in range(total - 1):
+for _ in range(total - 1):      # _ используется как безымянная переменная, которая в цикле не используется
     count = int(input())
     if count > max:
         max = count
