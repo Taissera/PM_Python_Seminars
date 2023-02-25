@@ -5,7 +5,10 @@
 
 # list_nums = [1, 2, 3, 1, 1, 5, 10, 20, 20, 30]
 
-list_1 = [1, 1, 2, 0, -1, 3, 4, 4]
-list_2 = set(list_1)
-print(list_2)
-print(len(list_2))
+# list_1 = [1, 1, 2, 0, -1, 3, 4, 4]
+# list_2 = set(list_1)
+# print(list_2)
+# print(len(list_2))
+
+list_nums = [1, 2, 3, 1, 1, 5, 10, 20, 20, 30]
+print(len(set(list_nums)))

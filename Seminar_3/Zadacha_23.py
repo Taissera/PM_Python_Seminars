@@ -7,9 +7,5 @@
 # Примечание: Пользователь может вводить значения
 # списка или список задан изначально.
 
-list_1 = [0, -1, 5, 2, 3]
-res = 0
-for i in range(1, len(list_1)):
-    if list_1[i] > list_1[i - 1]:
-        res += 1
-print(res)
+list_nums = [0, -1, 5, 2, 3]
+print(sum([list_nums[i] > list_nums[i - 1] for i in range(1, len(list_nums))]))
